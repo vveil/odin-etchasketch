@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    button {
+        @apply outline rounded-md py-1 px-12 transition duration-200 hover:bg-[#EDEDED] hover:text-[#333333]
+    }
+}

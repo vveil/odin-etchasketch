@@ -1,0 +1,27 @@
+:root {
+    --primary-dark: #333;
+    --primary-light: #ededed;
+    --secondary-light: #fefefe;
+  }
+  
+
+input[type='range'] {
+    -webkit-appearance: none;
+    background-color: var(--primary-dark);
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 8px;
+    border: 1px solid var(--primary-light);
+    border-radius: 25px;
+    background: var(--primary-dark);
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+    margin-top: -5px;
+    background: var(--primary-light);
+  }

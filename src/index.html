@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etch a sketch</title>
+    <script src="app.js" defer></script>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="bg-[#333333] text-[#EDEDED]">
+    <div class="flex justify-center font-bold text-6xl mt-8">etch-a-sketch</div>
+    <div id="wrapper" class="flex md:flex-row flex-col-reverse gap-8 md:items-start items-center md:justify-center mt-16">
+        <div id="input-div" class="flex flex-col gap-4 justify-center">
+            <div class="flex flex-col text-xl gap-2 items-center">
+                <div id="sizeDisplay">10x10</div>
+                <input id="sizeSlider" class="w-full" type="range" value="10" min="1" max="128">
+            </div>
+            <button id="clear-btn" class="">Clear</button>
+        </div>
+        <div id="grid" class="flex w-[500px] h-[500px] outline outline-1 outline-gray-50"></div>
+    </div>
+</body>
+
+</html>
